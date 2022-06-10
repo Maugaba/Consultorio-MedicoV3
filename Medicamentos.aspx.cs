@@ -81,5 +81,10 @@ namespace Consultorio_Medico
         {
             Response.Redirect("default",true);
         }
+
+        protected System.Void Page_Load(System.Object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
